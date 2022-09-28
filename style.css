@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    display: grid;
+    grid-template: repeat(7, auto) / 1fr;
+    justify-items: center;
+    margin: 5px;
+    grid-gap: 10px;
+}
+@media only screen and (max-width: 530px) {
+
+}
+#header{
+    border: 2px solid black;
+    width: 99.5%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    position: fixed;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+#header-img{
+    margin: 5px;
+  border-radius: 50%;
+}
+#nav-bar{
+    margin: 5px 10px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+#nav-bar a{
+    text-decoration: none;
+    color: black;
+}
+#form{
+    margin-top: 100px;
+    padding: 5px;
+    border: 2px solid black;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+#form *{
+    padding: 5px;
+}
+#aboutUs{
+    border: 2px solid black;
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+#demonstration{
+    border: 2px solid black;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+#pricing{
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+#itemPrice *{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    justify-items: center;
+}
+#footer{
+    border: 2px solid black;
+    background-color: aliceblue;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+}
+#goBackTop{
+    opacity: 0.3;
+    position: fixed;
+    top: 90%;
+    left: 93%;
+
+}
+#goBackTop:hover{
+    opacity: 1;
+
+
+}
